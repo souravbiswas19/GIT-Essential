@@ -1,0 +1,13 @@
+git init
+git clone https://github.com/souravbiswas19/GIT-Essential.git
+git commit -m "Commit"
+git status
+git branch feature-rename-files
+git checkout feature-rename-files
+git reset
+git fetch origin master
+git pull origin feature-rename-files
+git cherry-pick 092018283103810930
+git push origin master
+git push origin --delete feature-rename-files
+git rebase -i HEAD~n
